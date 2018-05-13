@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:src="@drawable/logo"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#fff">
+        <Button
+            android:layout_width="195dp"
+            android:layout_height="match_parent"
+            android:background="#84d0f5"
+            android:text="Filter by"/>
+        <Button
+            android:layout_marginStart="2dp"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:background="#84d0f5"
+            android:text="Sort by"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/travel1"
+            android:layout_margin="10dp"/>
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Bali Prima"
+                    android:textColor="#666968"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Malang - Banyuwangi #PP"
+                    android:textColor="#70a3bc"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Rp.130.000"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"/>
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_gravity="center"
+                    android:layout_height="40dp"
+                    android:background="#fecc00"
+                    android:text="pesan"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c9c9c9"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/travel1"
+                android:layout_margin="10dp"/>
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Chandra Dewi"
+                    android:textColor="#666968"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Surabaya - Malang #PP"
+                    android:textColor="#70a3bc"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Rp.130.000"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"/>
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_gravity="center"
+                    android:layout_height="40dp"
+                    android:background="#fecc00"
+                    android:text="pesan"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c9c9c9"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/travel1"
+                android:layout_margin="10dp"/>
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Mentari"
+                    android:textColor="#666968"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Malang - Pacitan #PP"
+                    android:textColor="#70a3bc"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Rp.130.000"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"/>
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_gravity="center"
+                    android:layout_height="40dp"
+                    android:background="#fecc00"
+                    android:text="pesan"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c9c9c9"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/travel1"
+                android:layout_margin="10dp"/>
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Ramayana"
+                    android:textColor="#666968"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Malang - Blitar #PP"
+                    android:textColor="#70a3bc"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Rp.130.000"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"/>
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_gravity="center"
+                    android:layout_height="40dp"
+                    android:background="#fecc00"
+                    android:text="pesan"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c9c9c9"/>
+
+
+
+    </LinearLayout>
+
+
+    
+</LinearLayout>
